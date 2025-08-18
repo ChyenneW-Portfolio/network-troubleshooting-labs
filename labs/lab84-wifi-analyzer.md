@@ -18,7 +18,7 @@
 
 ## Diagnostics Plan
 
-1. Download and install (Netspot)[https://www.netspotapp.com/]
+1. Download and install Netspot[https://www.netspotapp.com/]
 2. Open NetSpot and go to the Discover page.
 3. Double click on one of the devices. Note signal strength, security changes, and channel changes.
 
@@ -36,7 +36,7 @@
 - Record which networks are using WEP, WPA, or WPA2/WPA3.
   - **Findings:** Networks near me are using WPA2/WPA3.
 
-> [NOTE]
+> [!NOTE]
 > WEP is insecure because it is and old weak encryption and can be easily hacked.
 
 ## Root Cause:
