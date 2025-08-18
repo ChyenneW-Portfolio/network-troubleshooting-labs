@@ -4,18 +4,19 @@
 
 ---
 
-**Scenario**: <Describe the problem/symptom.>
+## Scenario: <Describe the problem/symptom.>
 
 ---
 
-**Topology / Setup**:
+## Topology / Setup:
 
-- Host(s): <OS / IP / role>
-- Network: <subnet, VLAN, gateway>
-- Services: <DHCP/DNS/etc.>
+- **Host(s)**: <OS / IP / role>
+- **Network**: <subnet, VLAN, gateway>
+- **Services**: <DHCP/DNS/etc.>
+- **Software**: <NetSpot (free edition)>
 - Intentional misconfig: <what you broke on purpose>
 
-**Diagnostics Plan** (choose relevant):
+## Diagnostics Plan (choose relevant):
 
 - `ping` / `tracert` / `traceroute`
 - `ipconfig /all` or `ifconfig`
@@ -23,7 +24,7 @@
 - `netstat`
 - `nmap`
 
-**Commands \& Findings**:
+## Commands \& Findings:
 
 ```
 bash
