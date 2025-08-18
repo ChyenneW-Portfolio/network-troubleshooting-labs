@@ -11,10 +11,6 @@
 ## Topology / Setup:
 
 - **Host(s)**: Windows PC
-- **Network**: <subnet, VLAN, gateway>
-- **Services**: <DHCP/DNS/etc.>
-- **Software**: <NetSpot (free edition)>
-- Intentional misconfig: <what you broke on purpose>
 
 ## Diagnostics Plan (choose relevant):
 
