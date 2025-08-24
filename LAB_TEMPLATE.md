@@ -1,10 +1,7 @@
 # Lab <#> — <Short Title>
 
 **Objective**: <What skill or concept is being tested?>
-
----
-
-## Scenario: <Describe the problem/symptom.>
+**Scenario:** <Describe the problem/symptom.>
 
 ---
 
@@ -18,25 +15,21 @@
 
 ## Diagnostics Plan (choose relevant):
 
-- `ping` / `tracert` / `traceroute`
-- `ipconfig /all` or `ifconfig`
-- `nslookup` / `dig`
-- `netstat`
-- `nmap`
+1. Find the command prompt.
+2. Note available switches.
+3. Run nslookup and note the output
 
 ## Commands \& Findings:
 
+1. Comparing different DNS servers
+
 ```
-bash
-
-\\# put real commands here
-
-ping -c 3 192.168.1.1
+nslookup www.google.com        # uses default (router/ISP DNS)
+nslookup www.google.com 8.8.8.8
 ```
 
-## Key observations:
-
-<packet loss? wrong DNS? no default route?>
+- **Findings:** <What happened?>
+- **Interpretation:** <What could that mean?>
 
 ## Root Cause:
 
